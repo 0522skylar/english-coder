@@ -3,12 +3,12 @@
 // import { Inter } from 'next/font/google'
 import { useEffect } from 'react';
 import styles from './home.module.scss'
-import { apiSelf } from 'apis/test'
+import { apiList } from 'apis/test'
 
 export default function Home() {
 
   const handleSelfAPi = async () => {
-    const res = await apiSelf();
+    const res = await apiList();
     console.log(res)
   }
   useEffect(() => {

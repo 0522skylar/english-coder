@@ -10,6 +10,6 @@ export const apiSelf = () => {
   return fetcher('/api/hello')
 }
 
-// export const apiList = () => {
-//   return fetcher('/api/list')
-// }
+export const apiList = () => {
+  return fetcher('/api/openai')
+}
